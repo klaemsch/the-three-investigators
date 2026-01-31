@@ -1,0 +1,31 @@
+page_settings = {
+    "003": {
+        "id": "003",
+        "speaker_name_window": [10, 23],
+        "text_start_index": 20,
+        "speaker_name_window_threshold": 0.5
+    },
+    "004": {
+        "id": "004",
+        "speaker_name_window": [7, 20],
+        "text_start_index": 20,
+        "speaker_name_window_threshold": 0.5
+    },
+    "005": {
+        "id": "005",
+        "speaker_name_window": [9, 23],
+        "text_start_index": 20,
+        "speaker_name_window_threshold": 0.5
+    },
+    "007": {
+        "id": "007",
+        "speaker_name_window": [7, 23],
+        "text_start_index": 20,
+        "speaker_name_window_threshold": 0.5
+    }
+}
+
+# if any of these strings appear in a line, the line is ignored
+ignore_line_markers = ['www.rocky-beach.com', 'www. rocky-beach.com']
+
+additional_speakers = ['Justus', 'Bob', 'Peter', 'Elmquist', 'Murphy', 'Mr Prentice', 'Mrs Boogle', 'Ms Chalmers', 'Hassell', 'Peter, Bob', 'Justus, Peter', 'Tommy', 'Justua', 'Schwarzbart', 'Allgemein', 'Mrs.Peterson', 'DwiggIns', '3???/ Gus', '3???', 'Gus', 'Rhandur', 'Dwiggins', 'Hitchcock', 'Mathilda', 'Allen', 'Shelby', 'Die ???', 'Reynolds', 'Carson']
