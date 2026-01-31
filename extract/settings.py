@@ -34,6 +34,18 @@ page_settings = {
         "speaker_name_window": [6, 21],
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
+    },
+    "080": {
+        "id": "080",
+        "speaker_name_window": [10, 20],
+        "text_start_index": 22,
+        "speaker_name_window_threshold": 0.2
+    },
+    "107": {
+        "id": "107",
+        "speaker_name_window": [7, 22],
+        "text_start_index": 22,
+        "speaker_name_window_threshold": 0.2
     }
 }
 
@@ -50,5 +62,7 @@ additional_speakers = [
     'Reynolds', 'Carson', '1.Mann', '2.Mann', '3.Mann', 
     'Carlson', 'Calson', 'Green', 'Tonband', 'Just', 'Stimme',
     'Wikinger', 'Indianer', 'Radiostimme', 'Kapitän/Sam', 
-    'Karl', 'Bob/Peter', 'Coulter/Sam', 'Ingmar', 'Manning'
+    'Karl', 'Bob/Peter', 'Coulter/Sam', 'Ingmar', 'Manning',
+    'Justus:', 'Peter:', 'Carpenter', 'Contreras', 'Bob:',
+    'Alle', 'B + J', 'P + B', 'Tai', 'Lama', 'Mr Zhang'
 ]

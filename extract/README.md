@@ -7,3 +7,6 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 
 008
 - PolizistWird, PolizistVorsicht
+
+107
+- "REGIE","(lacht)","15" sollte eigentlich nicht REGIE sondern Person sein, passiert wenn "(lacht)" das einzige ist was in der Zeile hinter dem Namen steht, ließe sich vermeiden, in dem die Kursiverkennung vor dem Algorithmus läuft und Zeilen mit der Kursiv-Datenbank während des Alorithmus abgeglichen werden. So können Zeilen, die tatsächlich einen Sprecher haben aber sonst nur Kursiv troztdem dem Sprecher zugeordnet werden
