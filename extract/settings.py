@@ -41,16 +41,39 @@ page_settings = {
         "text_start_index": 22,
         "speaker_name_window_threshold": 0.2
     },
+    "101": {
+        "id": "101",
+        "speaker_name_window": [7, 19],
+        "text_start_index": 19,
+        "speaker_name_window_threshold": 0.2
+    },
     "107": {
         "id": "107",
         "speaker_name_window": [7, 22],
         "text_start_index": 22,
         "speaker_name_window_threshold": 0.2
+    },
+    "190": {
+        "id": "190",
+        "speaker_name_window": [8, 25],
+        "text_start_index": 25,
+        "speaker_name_window_threshold": 0.2
     }
 }
 
+italic_font_names = [
+    'Arial-ItalicMT',
+    'Arial-BoldItalicMT',
+    'FEWSTO+Helvetica-Oblique',
+    'KWEYHS+Helvetica-Oblique',
+]
+
 # if any of these strings appear in a line, the line is ignored
-ignore_line_markers = ['www.rocky-beach.com', 'www. rocky-beach.com']
+ignore_line_markers = [
+    'www.rocky-beach.com', 
+    'www. rocky-beach.com',
+    'Die drei ??? – ...und die Kammer der Rätsel (190)'
+]
 
 additional_speakers = [
     'Justus', 'Bob', 'Peter', 'Elmquist', 'Murphy', 
@@ -64,5 +87,7 @@ additional_speakers = [
     'Wikinger', 'Indianer', 'Radiostimme', 'Kapitän/Sam', 
     'Karl', 'Bob/Peter', 'Coulter/Sam', 'Ingmar', 'Manning',
     'Justus:', 'Peter:', 'Carpenter', 'Contreras', 'Bob:',
-    'Alle', 'B + J', 'P + B', 'Tai', 'Lama', 'Mr Zhang'
+    'Alle', 'B + J', 'P + B', 'Tai', 'Lama', 'Mr Zhang',
+    'Mrs Carrera', 'Mrs Scott', 'Jeremy', 'Mr Acer',
+    'Mrs Jones', 'Mr Cade'
 ]
