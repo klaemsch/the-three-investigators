@@ -4,6 +4,7 @@ from settings import page_settings
 for key, value in page_settings.items():
     id = key
     settings = value
+    print(f'Starting notebook for script {id}')
     pm.execute_notebook(
         "template.ipynb",
         f"output/output_{id}.ipynb",
