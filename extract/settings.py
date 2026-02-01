@@ -52,6 +52,10 @@ page_settings = {
         "id": "130",
         "speaker_name_window_threshold": 0.2
     },
+    "163": {
+        "id": "163",
+        "regie_in_parentheses": True
+    },
     "152": {
         "id": "152",
         "speaker_name_window_threshold": 0.2
@@ -71,10 +75,10 @@ italic_font_names = [
 
 # if any of these strings appear in a line, the line is ignored
 ignore_line_markers = [
-    'www.rocky-beach.com', 
-    'www. rocky-beach.com',
+    'rocky-beach.com',
     'Die drei ??? – ...und die Kammer der Rätsel (190)',
     'www.rocky-beach. com',
+    'Die drei ??? – ...und der Hexengarten (184)',
 ]
 
 additional_speakers = [
@@ -96,5 +100,13 @@ additional_speakers = [
     'Cotta', 'Mrs. Hanson', 'Whitehead', 'Wright', 
     'John+Jeffrey', 'White', 'Die ganze Sekte', 'Mr. Crowe',
     'Mr. MacGruder', 'Mr. Hanley', 'Connors', 'Demonstrant 1',
-    'Demonstrant 2', '2. Polizist'
+    'Demonstrant 2', '2. Polizist', 'Assistentin', 'Rossing',
+    'Brackman', 'Amy', 'Monique', 'Cowley', 'Einer der Jungen',
+    'Mr. Morland', 'Priscilla', 'Sicktree', 'PS', 'Wrenwick',
+    'RW', 'Aishlyn', '???', 'Aishliy', 'Jonathan', 'Buck',
+    'Mrs. Rodman', 'Valerie', 'Mr. Tillerman', 'Mr. Rodman',
+    'Benjamin', 'Sgt. Morales', 'Skull', 'Duane Carpenter',
+    '1. Reporterin', '2. Reporterin', 'Francis Stdstill',
+    'Mr. Woodland', 'Mr. Norsworthy', 'Mr. Wellford',
+    'Francis oder Carol', 'Einer der Männer', '3 ???'
 ]
