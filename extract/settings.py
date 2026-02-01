@@ -97,7 +97,7 @@ additional_speakers = [
     'Mrs Carrera', 'Mrs Scott', 'Jeremy', 'Mr Acer',
     'Mrs Jones', 'Mr Cade', 'Mr. Brewster', '1. Polizist',
     'Beide Polizisten', 'Titus', 'Robinshaw', 'Peter.',
-    'Cotta', 'Mrs. Hanson', 'Whitehead', 'Wright', 
+    'Cotta', 'Mrs. Hanson', 'Whitehead', 'Wright', 'Jusuts',
     'John+Jeffrey', 'White', 'Die ganze Sekte', 'Mr. Crowe',
     'Mr. MacGruder', 'Mr. Hanley', 'Connors', 'Demonstrant 1',
     'Demonstrant 2', '2. Polizist', 'Assistentin', 'Rossing',
@@ -108,5 +108,5 @@ additional_speakers = [
     'Benjamin', 'Sgt. Morales', 'Skull', 'Duane Carpenter',
     '1. Reporterin', '2. Reporterin', 'Francis Stdstill',
     'Mr. Woodland', 'Mr. Norsworthy', 'Mr. Wellford',
-    'Francis oder Carol', 'Einer der Männer', '3 ???'
+    'Francis oder Carol', 'Einer der Männer', '3 ???',
 ]
