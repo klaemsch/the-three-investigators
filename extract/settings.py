@@ -29,11 +29,24 @@ page_settings = {
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
     },
+    "041": {
+        "id": "041",
+        "speaker_name_window": [10, 24],
+        "text_start_index": 24,
+        "speaker_name_window_threshold": 0.5
+    },
     "045": {
         "id": "045",
         "speaker_name_window": [6, 21],
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
+    },
+    "074": {
+        "id": "074",
+        "speaker_name_window": [10, 26],
+        "text_start_index": 22,
+        "speaker_name_window_threshold": 0.5,
+        "regie_in_parentheses": True
     },
     "080": {
         "id": "080",
@@ -53,6 +66,12 @@ page_settings = {
         "text_start_index": 22,
         "speaker_name_window_threshold": 0.2
     },
+    "130": {
+        "id": "130",
+        "speaker_name_window": [9, 27],
+        "text_start_index": 24,
+        "speaker_name_window_threshold": 0.2
+    },
     "190": {
         "id": "190",
         "speaker_name_window": [8, 25],
@@ -64,8 +83,7 @@ page_settings = {
 italic_font_names = [
     'Arial-ItalicMT',
     'Arial-BoldItalicMT',
-    'FEWSTO+Helvetica-Oblique',
-    'KWEYHS+Helvetica-Oblique',
+    'Helvetica-Oblique',
 ]
 
 # if any of these strings appear in a line, the line is ignored
@@ -89,5 +107,8 @@ additional_speakers = [
     'Justus:', 'Peter:', 'Carpenter', 'Contreras', 'Bob:',
     'Alle', 'B + J', 'P + B', 'Tai', 'Lama', 'Mr Zhang',
     'Mrs Carrera', 'Mrs Scott', 'Jeremy', 'Mr Acer',
-    'Mrs Jones', 'Mr Cade'
+    'Mrs Jones', 'Mr Cade', 'Mr. Brewster', '1. Polizist',
+    'Beide Polizisten', 'Titus', 'Robinshaw', 'Peter.',
+    'Cotta', 'Mrs. Hanson', 'Whitehead', 'Wright', 
+    'John+Jeffrey', 'White', 'Die ganze Sekte'
 ]
