@@ -52,6 +52,10 @@ page_settings = {
         "id": "130",
         "speaker_name_window_threshold": 0.2
     },
+    "152": {
+        "id": "152",
+        "speaker_name_window_threshold": 0.2
+    },
     "190": {
         "id": "190",
         "speaker_name_window_threshold": 0.2
@@ -62,6 +66,7 @@ italic_font_names = [
     'Arial-ItalicMT',
     'Arial-BoldItalicMT',
     'Helvetica-Oblique',
+    'Calibri,Italic',
 ]
 
 # if any of these strings appear in a line, the line is ignored
@@ -91,5 +96,5 @@ additional_speakers = [
     'Cotta', 'Mrs. Hanson', 'Whitehead', 'Wright', 
     'John+Jeffrey', 'White', 'Die ganze Sekte', 'Mr. Crowe',
     'Mr. MacGruder', 'Mr. Hanley', 'Connors', 'Demonstrant 1',
-    'Demonstrant 2'
+    'Demonstrant 2', '2. Polizist'
 ]
