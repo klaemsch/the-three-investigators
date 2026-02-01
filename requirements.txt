@@ -3,3 +3,4 @@ pdfplumber==0.11.9
 ipykernel==7.1.0
 pandas==3.0.0
 papermill==2.6.0
+matplotlib==3.10.8

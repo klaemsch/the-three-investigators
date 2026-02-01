@@ -1,80 +1,67 @@
 page_settings = {
     "003": {
         "id": "003",
-        "speaker_name_window": [10, 23],
         "text_start_index": 20,
-        "speaker_name_window_threshold": 0.5
+        "speaker_name_window_threshold": 0.2
     },
     "004": {
         "id": "004",
-        "speaker_name_window": [7, 20],
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
     },
     "005": {
         "id": "005",
-        "speaker_name_window": [9, 23],
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
     },
     "007": {
         "id": "007",
-        "speaker_name_window": [7, 23],
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
     },
     "008": {
         "id": "008",
-        "speaker_name_window": [10, 22],
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
     },
     "041": {
         "id": "041",
-        "speaker_name_window": [10, 24],
         "text_start_index": 24,
         "speaker_name_window_threshold": 0.5
     },
     "045": {
         "id": "045",
-        "speaker_name_window": [6, 21],
         "text_start_index": 20,
         "speaker_name_window_threshold": 0.5
     },
     "074": {
         "id": "074",
-        "speaker_name_window": [10, 26],
         "text_start_index": 22,
-        "speaker_name_window_threshold": 0.5,
+        "speaker_name_window_threshold": 0.1,
         "regie_in_parentheses": True
     },
     "080": {
         "id": "080",
-        "speaker_name_window": [10, 20],
         "text_start_index": 22,
         "speaker_name_window_threshold": 0.2
     },
     "101": {
         "id": "101",
-        "speaker_name_window": [7, 19],
         "text_start_index": 19,
         "speaker_name_window_threshold": 0.2
     },
     "107": {
         "id": "107",
-        "speaker_name_window": [7, 22],
         "text_start_index": 22,
         "speaker_name_window_threshold": 0.2
     },
     "130": {
         "id": "130",
-        "speaker_name_window": [9, 27],
         "text_start_index": 24,
         "speaker_name_window_threshold": 0.2
     },
     "190": {
         "id": "190",
-        "speaker_name_window": [8, 25],
         "text_start_index": 25,
         "speaker_name_window_threshold": 0.2
     }
