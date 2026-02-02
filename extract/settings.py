@@ -1,67 +1,47 @@
 page_settings = {
     "003": {
-        "id": "003",
         "speaker_name_window_threshold": 0.2
     },
     "004": {
-        "id": "004",
         "speaker_name_window_threshold": 0.5
     },
     "005": {
-        "id": "005",
         "speaker_name_window_threshold": 0.5
     },
     "007": {
-        "id": "007",
         "speaker_name_window_threshold": 0.5
     },
     "008": {
-        "id": "008",
         "speaker_name_window_threshold": 0.5
     },
     "030": {
-        "id": "030",
         "speaker_name_window_threshold": 0.5
     },
     "041": {
-        "id": "041",
-        "speaker_name_window_threshold": 0.5
+        "speaker_name_window_threshold": 0.5,
     },
     "045": {
-        "id": "045",
         "speaker_name_window_threshold": 0.5
     },
     "074": {
-        "id": "074",
         "speaker_name_window_threshold": 0.1,
-        "regie_in_parentheses": True
     },
     "080": {
-        "id": "080",
         "speaker_name_window_threshold": 0.2
     },
     "101": {
-        "id": "101",
-        "speaker_name_window_threshold": 0.2
+        "speaker_name_window_threshold": 0.2,
     },
     "107": {
-        "id": "107",
-        "speaker_name_window_threshold": 0.2
+        "speaker_name_window_threshold": 0.2,
     },
     "130": {
-        "id": "130",
         "speaker_name_window_threshold": 0.2
     },
-    "163": {
-        "id": "163",
-        "regie_in_parentheses": True
-    },
     "152": {
-        "id": "152",
         "speaker_name_window_threshold": 0.2
     },
     "190": {
-        "id": "190",
         "speaker_name_window_threshold": 0.2
     }
 }
@@ -76,9 +56,14 @@ italic_font_names = [
 # if any of these strings appear in a line, the line is ignored
 ignore_line_markers = [
     'rocky-beach.com',
-    'Die drei ??? – ...und die Kammer der Rätsel (190)',
     'www.rocky-beach. com',
-    'Die drei ??? – ...und der Hexengarten (184)',
+    'www. rocky-beach. com',
+    'Die drei ??? –'
+    'Die drei ??? und der',
+    'Die drei ??? und das',
+    'Die drei ??? und die',
+    'Die drei ??? -',
+    'Die drei ??? -',
 ]
 
 additional_speakers = [
@@ -92,7 +77,6 @@ additional_speakers = [
     'Carlson', 'Calson', 'Green', 'Tonband', 'Just', 'Stimme',
     'Wikinger', 'Indianer', 'Radiostimme', 'Kapitän/Sam', 
     'Karl', 'Bob/Peter', 'Coulter/Sam', 'Ingmar', 'Manning',
-    'Justus:', 'Peter:', 'Carpenter', 'Contreras', 'Bob:',
     'Alle', 'B + J', 'P + B', 'Tai', 'Lama', 'Mr Zhang',
     'Mrs Carrera', 'Mrs Scott', 'Jeremy', 'Mr Acer',
     'Mrs Jones', 'Mr Cade', 'Mr. Brewster', '1. Polizist',
@@ -107,6 +91,28 @@ additional_speakers = [
     'Mrs. Rodman', 'Valerie', 'Mr. Tillerman', 'Mr. Rodman',
     'Benjamin', 'Sgt. Morales', 'Skull', 'Duane Carpenter',
     '1. Reporterin', '2. Reporterin', 'Francis Stdstill',
-    'Mr. Woodland', 'Mr. Norsworthy', 'Mr. Wellford',
+    'Mr. Woodland', 'Mr. Norsworthy', 'Mr. Wellford', 'Justs',
     'Francis oder Carol', 'Einer der Männer', '3 ???',
+    'Mrs. Sullivan', 'Mr. Taylor', 'Susan', 'Bob, Peter',
+    'Peter, Susan', 'Justus, Bob', 'Bob, Susan', 'Julia',
+    'Mrs. Hutchinson', 'Mrs. Claire Jordan', 'Wolf', 'Mr Qin',
+    'Peter, Justus, Bob (unisono)', 'Verstellte Stimme',
+    'Christopher Barcley', 'Mr. Godfrey', 'Harper Knowsley',
+    'Knowsley', '„Bob“ Bill Cooper', 'Mr Appelgate', 'Godween',
+    'Mr Farnham', 'Bob/Justus', 'Justus/Peter', 'Die drei ???',
+    'Mr. Diffleton', 'Justus, Peter, Bob', 'Justus, Bob',
+    'Mr. Sinclair', 'Bob, Justus', 'Barnaby Witherspoon',
+    'Prof. Mathewson', 'Die drei Jungen', 'Fiona', '1. Mann',
+    'Vanessa Gooldstein', 'Vanessa Goldstein', '2. Mann',
+    'Rossing', 'Assistentin', 'Brackman', 'Fletcher', 'Nobel',
+    'Pherson', 'Justus/Peter', 'Justus/Bob', 'Laurent', 'Ray',
+    'Mr. Laurent', 'Hannah Harding', 'Carpenter', 'Contreras',
+    'Stapleton', 'Bob, Peter und Mrs. Harding', 'Ambler', 
+    'Harding', 'Die Fragezeichen und Cotta', 'Rodder', 'Cris',
+    'Mr. Hitchcock', 'Mr. Denton', 'Mr. Farraday', 'Skinny',
+    'Pico', 'Peter, Justus', 'Allie', 'Tante Patricia', 
+    'Miss Osborne', 'Bentley', 'Mrs. Compton', 'Hendricks',
+    'Bettler', 'Bob, Allie', 'Doktor', 'Dick Miller', 'Jenny',
+    'Justsu', 'Publikum', 'Mrs.Darnley', 'Mrs.Darley',
+    'Santora', 'Mrs.Darnely', 'Mr.Andersen', 'Mr.Anderson'
 ]
