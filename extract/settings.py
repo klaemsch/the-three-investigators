@@ -114,5 +114,6 @@ additional_speakers = [
     'Miss Osborne', 'Bentley', 'Mrs. Compton', 'Hendricks',
     'Bettler', 'Bob, Allie', 'Doktor', 'Dick Miller', 'Jenny',
     'Justsu', 'Publikum', 'Mrs.Darnley', 'Mrs.Darley',
-    'Santora', 'Mrs.Darnely', 'Mr.Andersen', 'Mr.Anderson'
+    'Santora', 'Mrs.Darnely', 'Mr.Andersen', 'Mr.Anderson',
+    'Mr. Donner', 'Arbeiter', 'Mr. Slater'
 ]

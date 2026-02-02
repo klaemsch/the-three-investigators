@@ -645,7 +645,7 @@
 "Justus","Washington     Das Casting hat noch nicht begonnen. Wartet bitte draußen vor der Tür.","19"
 "Justus","*zum Telefon* Gut, ich melde mich Morgen wieder.","19"
 "REGIE","*John Davis und Brenda kommen in den Raum*","19"
-"Justus","Washington     Morgen, Brenda. Hi, John.","19"
+"REGIE","Washington     Morgen, Brenda. Hi, John.","19"
 "Brenda","Guten Morgen, Mr Washington. Wir können dann loslegen.","19"
 "Brenda","Washington     Nun gut, ihr drei. Bleibt mal gleich hier. Fangen wir mit euch an.","19"
 "Justus","Ähm.","19"
