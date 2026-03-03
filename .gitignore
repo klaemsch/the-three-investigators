@@ -2,3 +2,5 @@ tmp.json
 .DS_Store
 __pycache__
 extract/output
+extract/fonts.txt
+extract/unsure.txt
