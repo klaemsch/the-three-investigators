@@ -4,3 +4,4 @@ ipykernel==7.1.0
 pandas==3.0.0
 papermill==2.6.0
 matplotlib==3.10.8
+black==26.1.0
