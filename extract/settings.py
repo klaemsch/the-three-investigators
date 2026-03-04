@@ -79,19 +79,39 @@ italic_font_names = [
 # if any of these strings appear in a line, the line is ignored - case insensitive
 ignore_line_markers = [
     'rocky-beach.com',
-    'www.rocky‐beach.com',
     'www.rocky-beach. com',
     'www. rocky-beach. com',
     'www. rocky-beach com',
     'www.rocky-beach.om',
-    'Die drei ??? –',
     'Die drei ??? und der',
     'Die drei ??? und das',
     'Die drei ??? und die',
     'Die drei ??? -',
-    'Die drei ??? -',
-    '...',
 ]
+
+replacements = {
+    # Hyphens
+    '‐': '-',  
+    '–': '-',  
+    '—': '-',  
+    # Quotes
+    '‘': "'",   
+    '’': "'",   
+    '‚': "'",  
+    '“': '"',   
+    '”': '"',   
+    '„': '"',  
+    '´': "'",  
+    '`': "'",
+    '«': '"',  
+    '»': '"',  
+    # Ellipsis
+    '…': '...',
+    # Whitespaces
+    "": " ",
+    "": " ",
+    "": " ",
+}
 
 additional_speakers = [
     'Justus', 'Bob', 'Peter', 'Elmquist', 'Murphy', 
@@ -615,7 +635,7 @@ additional_speakers = [
 'RS',
 '"Phantom"',
 "O'Sullivan",
-"Mrs. O’Rien",
+"Mrs. O'Rien",
 "Mrs. O'Donnell",
 "O'Brian",
 'Morten',
@@ -684,15 +704,15 @@ additional_speakers = [
 'Peter',
 'Lowell',
 'George',
-'George &‘ Bob',
+"George &' Bob",
 'Personen',
 'Justus',
 'Lowell',
 'John Worren',
 'Peter',
 'Dávid',
-'Justus &‘ Bob',
-'Peter &‘ Bob',
+"Justus &' Bob",
+"Peter &' Bob",
 'Viele Mädchen',
 'Peter & Bob',
 'Justus Jonas',
@@ -1078,4 +1098,13 @@ additional_speakers = [
 'Shirley',
 'Mr. Sears',
 'Winkler',
+'Br. Raphael',
+'Inspektor',
+'Ober',
+'Pat',
+'Rosenberg',
+'Mr Cray',
+'Farnham',
+'Mr Lloyd',
+'Jsuts',
 ]

@@ -47,9 +47,6 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 107
 - "REGIE","(lacht)","15" sollte eigentlich nicht REGIE sondern Person sein, passiert wenn "(lacht)" das einzige ist was in der Zeile hinter dem Namen steht, ließe sich vermeiden, in dem die Kursiverkennung vor dem Algorithmus läuft und Zeilen mit der Kursiv-Datenbank während des Alorithmus abgeglichen werden. So können Zeilen, die tatsächlich einen Sprecher haben aber sonst nur Kursiv troztdem dem Sprecher zugeordnet werden
 
-120
-- es werden kaum REGIE rows gefunden, vllt. Schriftart anders?
-
 121
 - es werden zu viele Sachen der REGIE zugeordnet
 
@@ -65,30 +62,11 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 158
 - irgendwas ist komisch
 
-166
-- alle Namen uppercase, konvertieren vor Check
-
-169
-- alle Namen uppercase, konvertieren vor Check
-
-172
-- alle Namen uppercase, konvertieren vor Check
-
 173
 - es werden kaum REGIE rows gefunden, vllt. Schriftart anders?
 
-177
-- alle Namen uppercase, konvertieren vor Check
-
-187
-- Seitenzahl ist nicht einfach nur die Nummer, sondern "- X -" (X markiert die Seitenzahl)
-
 # Verbesserungsideen
-- momentan checken wir Zeilen die KOMPLETT kursiv geschrieben sind erst nach dem Hauptalgorithmus als eine Art Cleaning
-- besser wäre es die kursiven Zeilen vorher schon zu sammeln und im Hauptalgorithmus mit der aktuellen Zeile zu vergleichen
-- Seite 14 oä., also "Seite" und dann eine Zahl erkennen und rauswerfen
 - nach manchen Namen kommt ein Punkt ('.'), Semikolon (';'), Fragezeichen ('?'), Apostroph ('`') statt einem Doppelpunkt weil sich vertippt wurde -> müsste man abfangen
-- character normalisation wär cool als pre-processing, gibt viele verschiedene versionen von Bindestrichen/Hyphens, Apostrophen usw., maybe use https://textacy.readthedocs.io/en/latest/
 
 # Progress
 - 21611 rows
