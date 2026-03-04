@@ -2,6 +2,9 @@
 
 Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht dann am Ende "in seiner Woh-" und in der nächsten "nung. Und ". Wenn wir die Zeilen zusammen fügen müssen wir die Bindestriche am Ende der Wörter entfernen.
 
+001
+- automatische Erkennung des speaker window failed, vllt. manueller override nötig?
+
 002
 - keine Spalten
 
@@ -11,8 +14,17 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 008
 - PolizistWird, PolizistVorsicht
 
+013
+- in manchen Zeilen gibt es kein Leerzeichen zwischen Speaker Name und Text
+
+014
+- in manchen Zeilen gibt es kein Leerzeichen zwischen Speaker Name und Text
+
 015
 - keine Spalten
+
+022
+- automatische Erkennung des speaker window failed, vllt. manueller override nötig?
 
 023
 - keine Spalten
@@ -76,9 +88,11 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 - besser wäre es die kursiven Zeilen vorher schon zu sammeln und im Hauptalgorithmus mit der aktuellen Zeile zu vergleichen
 - Seite 14 oä., also "Seite" und dann eine Zahl erkennen und rauswerfen
 - nach manchen Namen kommt ein Punkt ('.'), Semikolon (';'), Fragezeichen ('?'), Apostroph ('`') statt einem Doppelpunkt weil sich vertippt wurde -> müsste man abfangen
+- character normalisation wär cool als pre-processing, gibt viele verschiedene versionen von Bindestrichen/Hyphens, Apostrophen usw., maybe use https://textacy.readthedocs.io/en/latest/
 
 # Progress
 - 21611 rows
 - 18564 rows
 - 13389 rows
 - 10651 rows
+- 08129 rows
