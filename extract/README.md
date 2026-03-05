@@ -65,8 +65,12 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 173
 - es werden kaum REGIE rows gefunden, vllt. Schriftart anders?
 
+214
+- irgendwelche komischen Zeichen
+
 # Verbesserungsideen
 - nach manchen Namen kommt ein Punkt ('.'), Semikolon (';'), Fragezeichen ('?'), Apostroph ('`') statt einem Doppelpunkt weil sich vertippt wurde -> müsste man abfangen
+- manueller override von speaker window wenn die automatische erkennung fehl schlägt
 
 # Progress
 - 21611 rows
