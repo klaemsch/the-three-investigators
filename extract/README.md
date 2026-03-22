@@ -4,9 +4,11 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 
 001
 - automatische Erkennung des speaker window failed, vllt. manueller override nötig?
+- in manchen Zeilen stehen die Speaker Names in 2 Zeilen (verrutscht?)
 
 002
 - keine Spalten
+- IGNORE
 
 003
 - "1 Im Buch: Mrs. Boggle"
@@ -22,27 +24,28 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 
 015
 - keine Spalten
+- IGNORE
 
 022
 - automatische Erkennung des speaker window failed, vllt. manueller override nötig?
 
 023
 - keine Spalten
+- IGNORE
 
 040
 - irgendwas komisch
+- ganz wildes Layout
+- IGNORE
 
 057
 - drei Spalten
 
-066
-- irgendwas komisch
-
-091
-- irgendwas ist hier falsch, es werden gar keine Namen erkannt
+95
+- drei Spalten
 
 102
-- es werden kaum REGIE rows gefunden, vllt. Schriftart anders?
+- drei Spalten
 
 107
 - "REGIE","(lacht)","15" sollte eigentlich nicht REGIE sondern Person sein, passiert wenn "(lacht)" das einzige ist was in der Zeile hinter dem Namen steht, ließe sich vermeiden, in dem die Kursiverkennung vor dem Algorithmus läuft und Zeilen mit der Kursiv-Datenbank während des Alorithmus abgeglichen werden. So können Zeilen, die tatsächlich einen Sprecher haben aber sonst nur Kursiv troztdem dem Sprecher zugeordnet werden
@@ -54,13 +57,16 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 - kann es sein dass die leerzeichen fehlen?
 
 141
-- irgendwas ist komisch
+- keine Spalten
+- IGNORE
 
 148
-- irgendwas ist komisch
+- keine Spalten
+- IGNORE
 
 158
-- irgendwas ist komisch
+- keine Spalten
+- IGNORE
 
 173
 - es werden kaum REGIE rows gefunden, vllt. Schriftart anders?
@@ -78,3 +84,5 @@ Teilweise werden die Wörter mit Bindestrichen gebrochen. In einer Zeile steht d
 - 13389 rows
 - 10651 rows
 - 08129 rows
+- 07464 rows
+- 05265 rows
