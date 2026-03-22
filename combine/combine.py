@@ -18,7 +18,7 @@ def get_episode_rows(filepath: os.PathLike):
 def write_combined_csv(data):
     with open("combine.csv", "w", newline="", encoding="utf-8") as fh:
         writer = csv.writer(fh, quoting=csv.QUOTE_ALL)
-        writer.writerow(["Speaker", "Text", "Page", "Episode"])
+        writer.writerow(["Speaker", "Text", "Page", "speaker_id", "Episode"])
         writer.writerows(data)
 
 
