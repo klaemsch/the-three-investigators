@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ## Install spacy for german language
 ```sh
 source venv/bin/activate
-python -m spacy download de_core_news_sm
+python -m spacy download de_core_news_lg
 ```
 
 ## Download audiobook transcripts
