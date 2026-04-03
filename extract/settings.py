@@ -66,6 +66,7 @@ ignore_line_markers = [
     "Die drei ??? und die",
     "Die drei ??? -",
     "Die drei ???...",
+    "Die drei Fragezeichen und",
 ]
 
 replacements = {

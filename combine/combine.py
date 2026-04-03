@@ -55,7 +55,7 @@ def write_combined_csv(data):
 CSV_DIR = "../csv"
 rows = []
 
-for filename in os.listdir(CSV_DIR):
+for filename in sorted(os.listdir(CSV_DIR)):
     print(filename)
     if filename.endswith(".csv"):
         episode = int(filename.removesuffix(".csv"))

@@ -8,3 +8,4 @@ black[jupyter]==26.1.0
 spacy==3.8.13
 gensim==4.4.0
 ipywidgets==8.1.8
+statsmodels==0.14.6
