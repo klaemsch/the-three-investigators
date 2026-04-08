@@ -9,9 +9,19 @@ def combine_rows(row1, row2):
         and row1[3] == row2[3]  # speaker_id equal
         and row1[4] == row2[4]  # episode equal
     ):
+        row1_text = row1[1].rstrip()
+        row2_text = row2[1].rstrip()
+
+        # check for hyphens at the end of text line 1
+        if len(row1_text) != 0 and row1_text[-1] == '-' and row2_text[0].lower() == row2_text[0]:
+            row1_text = row1_text[:-1]  # remove hyphens at the end of the line to avoid hyphen breaks in words
+            combined_texts = row1_text + row2_text
+        else:
+            combined_texts = row1_text + ' ' + row2_text
+
         return [
             row1[0],
-            row1[1].rstrip() + ' ' + row2[1].lstrip(),
+            combined_texts,
             row1[2],
             row1[3],
             row1[4]
